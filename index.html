@@ -33,6 +33,10 @@
                             <input type="text" name="" id="length-input" placeholder="h" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
                         </div>
+
+                        <!-- Area  Result Show Point -->
+                         <p>Area: <span id="triarea-result">0</span> <span>cm<sup>2</sup></span></p>
+
                       <!-- triangle button -->
                       <div class="card-actions">
                         <button onclick="triangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
@@ -49,49 +53,55 @@
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
-                      <p>Area (A) = 0.5 x b x h</p>
+                      <h2 class="card-title">Rectangle</h2>
+                      <p>Area (A) = w x l </p>
 
-                      <!-- triangle input field -->
+                      <!-- Rectangle input field -->
                         <div>
-                            <input type="text" name="" id="base-input" placeholder="b" class="w-24 bg-gray-700 rounded-md p-1">
+                            <input type="text" name="" id="rect-width" placeholder="w" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
-                            <input type="text" name="" id="length-input" placeholder="h" class="w-24 bg-gray-700 rounded-md p-1">
+                            <input type="text" name="" id="rect-length" placeholder="l" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
                         </div>
-                      <!-- triangle button -->
+
+                         <!-- Area  Result Show Point -->
+                         <p>Area: <span id="rectarea-result">0</span> <span>cm<sup>2</sup></span></p>
+
+                      <!-- Rectangle button -->
                       <div class="card-actions">
-                        <button onclick="triangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
+                        <button onclick="rectangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
                       </div>
                     </div>
                 </div>
-               
+                          
                 <!-- Parallelogram container -->
                 <div class="card bg-base-100 w-96 shadow-xl">
                     <figure class="px-10 pt-10">
                       <img
-                        src="images/parallelogram.png"
+                        src="images/rhombus.png"
                         alt="Shoes"
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
-                      <p>Area (A) = 0.5 x b x h</p>
+                      <h2 class="card-title">Parallelogram</h2>
+                      <p>Area (A) = b x h </p>
+                      <p>b=10cm, h=12cm</p>
 
-                      <!-- triangle input field -->
-                        <div>
+                      <!-- Parallelogram input field -->
+                        <!-- <div>
                             <input type="text" name="" id="base-input" placeholder="b" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
                             <input type="text" name="" id="length-input" placeholder="h" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
-                        </div>
-                      <!-- triangle button -->
+                        </div> -->
+                     
+                        <!-- Parallelogram button -->
                       <div class="card-actions">
                         <button onclick="triangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
                       </div>
                     </div>
                 </div>
-
+                
                 <!-- Rhombus container -->
                 <div class="card bg-base-100 w-96 shadow-xl">
                     <figure class="px-10 pt-10">
@@ -101,17 +111,19 @@
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
-                      <p>Area (A) = 0.5 x b x h</p>
+                      <h2 class="card-title">Rhombus</h2>
+                      <p>Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub> </p>
+                      <p>d<sub>1</sub>=16cm d<sub>2</sub>=8cm</p>
 
-                      <!-- triangle input field -->
-                        <div>
+                      <!-- Rhombus input field -->
+                        <!-- <div>
                             <input type="text" name="" id="base-input" placeholder="b" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
                             <input type="text" name="" id="length-input" placeholder="h" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
-                        </div>
-                      <!-- triangle button -->
+                        </div> -->
+                     
+                        <!-- Rhombus button -->
                       <div class="card-actions">
                         <button onclick="triangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
                       </div>
@@ -127,17 +139,18 @@
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
-                      <p>Area (A) = 0.5 x b x h</p>
+                      <h2 class="card-title">Pentagon</h2>
+                      <p>Area (A) = 0.5 x p x b</p>
+                      <p>p = 6cm, b = 10cm</p>
 
-                      <!-- triangle input field -->
-                        <div>
+                      <!-- Pentagon input field -->
+                        <!-- <div>
                             <input type="text" name="" id="base-input" placeholder="b" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
                             <input type="text" name="" id="length-input" placeholder="h" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
-                        </div>
-                      <!-- triangle button -->
+                        </div> -->
+                      <!-- Pentagon button -->
                       <div class="card-actions">
                         <button onclick="triangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
                       </div>
@@ -153,17 +166,18 @@
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Triangle</h2>
-                      <p>Area (A) = 0.5 x b x h</p>
+                      <h2 class="card-title">Ellipse</h2>
+                      <p>Area (A) = 𝛑ab</p>
+                      <p>a = 10cm, b = 4cm</p>
 
-                      <!-- triangle input field -->
-                        <div>
+                      <!-- Ellipse input field -->
+                        <!-- <div>
                             <input type="text" name="" id="base-input" placeholder="b" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
                             <input type="text" name="" id="length-input" placeholder="h" class="w-24 bg-gray-700 rounded-md p-1">
                             <span>cm</span>
-                        </div>
-                      <!-- triangle button -->
+                        </div> -->
+                      <!-- Ellipse button -->
                       <div class="card-actions">
                         <button onclick="triangleAreaCalculate()" class="btn btn-primary w-[350px]">Calculate</button>
                       </div>
@@ -173,8 +187,16 @@
             </div>
 
             <!-- ***********Area Calculation Container **********-->
-            <div class="w-96 border border-gray-600 p-2 text-center">
-                <h4>Area Calculation Result</h4>
+            <div class="w-96 border border-gray-600 p-2">
+                <h4 class="text-center">Area Calculation Result</h4>
+              <div class="mt-5 space-y-3">
+                <p>Triangle Area Result Is: </p>
+                <p>Rectangle Area Result Is: </p>
+                <p>Parallelogram Area Result Is: </p>
+                <p>Rhombus Area Result Is: </p>
+                <p>Pentagon Area Result Is: </p>
+                <p>Ellipse Area Result Is: </p>
+              </div>
             </div>
         </div>
       
@@ -182,5 +204,6 @@
 
 
     <script src="JS/triangle.js"></script>
+    <script src="JS/rectangle.js"></script>
 </body> 
 </html>

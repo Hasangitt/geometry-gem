@@ -10,5 +10,9 @@ function triangleAreaCalculate(){
     // make result
     const triangleResult = 0.5 * finalBase * finalLength;
     console.log('Triangle Area Result is:', triangleResult);
+
+    // area 
+    const areaResult = document.getElementById('triarea-result');
+    areaResult.innerText = triangleResult; 
     
 };
