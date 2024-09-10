@@ -14,5 +14,7 @@ function triangleAreaCalculate(){
     // area 
     const areaResult = document.getElementById('triarea-result');
     areaResult.innerText = triangleResult; 
-    
+    const areaBox = document.getElementById('tri-area-res');
+    areaBox.innerText = ('Triangle Area Result is:', triangleResult);
+
 };

@@ -14,5 +14,7 @@ function rectangleAreaCalculate(){
 
     const rectArea = document.getElementById('rectarea-result');
     rectArea.innerText = rectangleArea;
+    const rectAreaBox = document.getElementById('rec-area-res');
+    rectAreaBox.innerText = ('Rectngle Area Result is:', rectangleArea);
     
 }
